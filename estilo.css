@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    width: 100%;
 }
 .boton-home {
     padding: .8em;
@@ -100,6 +99,18 @@
     border: none;
     padding: .6em;
     border-radius: 7px;
+    width: auto;
+}
+
+.text-area-posicion {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.boton-contacto-posicion {
+    display: flex;
+    justify-content: center;
 }
 .boton-contacto:hover {
     transform: scale(1.1,1.1);
@@ -119,10 +130,9 @@
     .titulo-barra-navegacion {
         text-align: center;
     }
-    .img-home-responsive {
+    .img-home {
         display: block;
         margin-left: auto;
-        margin-right: auto;
     }
     .titulos {
         display: flex;
@@ -137,11 +147,7 @@
         align-items: center;
         flex-wrap: wrap;
     }
-    .img-sobremi-responsive {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+    
     .galeria {
         padding: 10px;
     }
@@ -150,6 +156,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .text-area-posicion {
+        display: block;
+        margin: auto;
+        
     }
     .titulo-servicios {
         visibility: visible;
