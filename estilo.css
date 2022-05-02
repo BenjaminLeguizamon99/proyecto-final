@@ -147,16 +147,13 @@
         align-items: center;
         flex-wrap: wrap;
     }
-    
+    .logo {
+        margin-right: 1em;
+    }
     .galeria {
         padding: 10px;
     }
-    .form-responsive {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+    
     .text-area-posicion {
         display: block;
         margin: auto;
