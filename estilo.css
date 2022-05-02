@@ -1,16 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
 .boton-home {
     padding: .8em;
     background-color: #000;
     color: #fff;
     text-decoration: none;
     border-radius: 1em;
+    width: auto;
+    border: none;
 }
 .boton-home:hover {
-    color: #5c5c5c;
+    transform: scale(1.1 ,1.1);
+    color: #fff;
+    transition: .6s;
 }
 .titulo-principal {
     font-family: 'Roboto', sans-serif;
 }
+
 .texto {
     font-family: 'Roboto', sans-serif;
 }
@@ -22,7 +32,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 1em;
 }
 .logo {
     height: 2.5em;
@@ -43,11 +52,43 @@
 .sub-titulo {
     font-family: 'Roboto', sans-serif;
 }
-.galeria-video {
-    margin-left: 5px;
+
+.fondo-servicios-modeling {
+    background-image: url(imagenes/pexels-cottonbro-4069292.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    margin: 10px;
 }
-.galeria-video2 {
-    margin-right: 5px;
+.titulo-servicios {
+    color: #fff;
+    visibility: hidden;
+    text-decoration: none;
+}
+
+.fondo-servicios-modeling:hover .titulo-servicios{
+    visibility: visible;
+    transition: .6s;
+}
+.leyenda-servicios {
+    text-decoration: none;
+}
+
+.fondo-servicios-rendering {
+    background-image: url(imagenes/rendering.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    margin: 10px;
+}
+
+.fondo-servicios-rendering:hover .titulo-servicios {
+    visibility: visible;
+}
+.galeria {
+    margin: .7em;
 }
 .galeria:hover {
     transform: scale(1.05,1.05);
@@ -61,7 +102,8 @@
     border-radius: 7px;
 }
 .boton-contacto:hover {
-    color: #5c5c5c;
+    transform: scale(1.1,1.1);
+    transition: .6s;
 }
 .texto-normal {
     font-family: 'Montserrat', sans-serif;
@@ -71,9 +113,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 85vh;
+    height: 90vh;
 }
 @media screen and (max-width: 768px) { /*Hago esta media query para acomodar el footer y las tarjetas de titulos y certificaciones. Tambien le doy un poco de padding a las imagenes de la galeria para que no queden juntas*/
+    .titulo-barra-navegacion {
+        text-align: center;
+    }
+    
     .titulos {
         display: flex;
         justify-content: center;
@@ -89,5 +135,15 @@
     }
     .galeria {
         padding: 10px;
+    }
+    .form-responsive {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .titulo-servicios {
+        visibility: visible;
+        padding-top: 1em;
     }
 }
