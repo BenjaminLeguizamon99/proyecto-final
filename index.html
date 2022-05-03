@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/estilo.css">
     <!-- Bootstrap CSS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,16 +29,16 @@
                     <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="sobre-mi.html">Sobre mi</a>
+                    <a class="nav-link" href="html/sobre-mi.html">Sobre mi</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="servicios.html">Servicios</a>
+                    <a class="nav-link" href="html/servicios.html">Servicios</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="galeria.html">Galeria</a>
+                    <a class="nav-link" href="html/galeria.html">Galeria</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
+                    <a class="nav-link" href="html/contacto.html">Contacto</a>
                   </li>
 
                 </ul>
@@ -46,35 +46,38 @@
             </div>
           </nav>
     </header>
-    <main>
+    <div class="container home-alto">
+      <main>
         <div class="row">
           <div class="col-md-5 my-auto">
             <div class="texto-principal">
                 <p class="h1 text-uppercase text-center titulo-principal py-4">modeling 3d y rendering</p>
                 <p class="text-center texto pb-4 texto-normal">Bienvenido a la pagina web de <span class="fw-bold">Conrado Leguizamon</span>, arquitecto dedicado al Modeling 3D y Rendering.</p>
-                <a href="https://web.whatsapp.com/" class="boton-home">Contactame!</a>
+                <a href="https://web.whatsapp.com/" class="boton-home" target="_blank">Contactame!</a>
             </div>    
             </div>
           <div class="col-md-7">
               <img src="imagenes/living.jpg" alt="Foto de un trabajo" class="img-fluid mt-5 img-home d.block mx-auto">
           </div>
         </div>
-    <footer>
-        <div class="row my-3">
-            <div class="col-md-3 footer-responsive">
-                <p class="text-center">Copyright 2022 All Rights reserved</p>
-            </div>
-            <div class="col-md-6 d-flex justify-content-center logo-responsive">
-                <a href="https://www.instagram.com/" target="_blank"><img src="imagenes/instagram-brands.svg" alt="Logo instagram" class="logo"></a>
-                <a href="https://web.whatsapp.com/" target="_blank"><img src="imagenes/whatsapp-brands.svg" alt="Logo whatsapp" class="logo"></a>
-                <a href="https://www.linkedin.com/in/conrado-leguizamon-973617200/" target="_blank"><img src="imagenes/linkedin-in-brands.svg" alt="Logo linkedin" class="logo"></a>
-            </div>
-            <div class="col-md-3  footer-responsive">
-                <p class="text-center">Cordoba, Argentina.</p>
-            </div>
-        </div>
-    </footer>
+        <footer>
+          <div class="row my-4">
+              <div class="col-md-3  footer-responsive">
+                  <p class="text-center">Copyright 2022 All Rights reserved</p>
+              </div>
+              <div class="col-md-6 d-flex justify-content-center">
+                  <a href="https://www.instagram.com/" target="_blank"><img src="imagenes/instagram-brands.svg" alt="Logo instagram" class="logo mx-3"></a>
+                  <a href="https://web.whatsapp.com/" target="_blank"><img src="imagenes/whatsapp-brands.svg" alt="Logo whatsapp" class="logo mx-3"></a>
+                  <a href="https://www.linkedin.com/in/conrado-leguizamon-973617200/" target="_blank"><img src="imagenes/linkedin-in-brands.svg" alt="Logo linkedin" class="logo mx-3"></a>
+              </div>
+              <div class="col-md-3  footer-responsive">
+                  <p class="text-center">Cordoba, Argentina.</p>
+              </div>
+          </div>
+      </footer>
     </main>
+    </div>
+    
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>

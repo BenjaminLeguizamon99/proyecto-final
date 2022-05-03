@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+
 .boton-home {
     padding: .8em;
     background-color: #000;
@@ -25,12 +26,14 @@
 }
 .img-home {
     border-radius: 1em;
+    height: 80vh;
 }
 .texto-principal {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 80vh;
 }
 .logo {
     height: 2.5em;
@@ -51,9 +54,14 @@
 .sub-titulo {
     font-family: 'Roboto', sans-serif;
 }
+.titulos {
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+}
 
 .fondo-servicios-modeling {
-    background-image: url(imagenes/pexels-cottonbro-4069292.jpg);
+    background-image: url(../imagenes/pexels-cottonbro-4069292.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -75,7 +83,7 @@
 }
 
 .fondo-servicios-rendering {
-    background-image: url(imagenes/rendering.jpg);
+    background-image: url(../imagenes/rendering.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -120,11 +128,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 .color-fondo {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(imagenes/pexels-expect-best-323772.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../imagenes/pexels-expect-best-323772.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+    height: 95vh;
 }
 @media screen and (max-width: 768px) { /*Hago esta media query para acomodar el footer y las tarjetas de titulos y certificaciones. Tambien le doy un poco de padding a las imagenes de la galeria para que no queden juntas*/
     .titulo-barra-navegacion {
