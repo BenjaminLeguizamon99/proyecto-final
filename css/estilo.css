@@ -138,9 +138,17 @@
     .titulo-barra-navegacion {
         text-align: center;
     }
-    .img-home {
-        display: block;
-        margin-left: auto;
+    .home-responsive {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imagenes/living.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .texto-principal {
+        color: #fff;
+    }
+    .img-home-responsive {
+        display: none;
     }
     .titulos {
         display: flex;
